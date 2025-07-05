@@ -26,7 +26,8 @@ jobs:
 
     - name: Analysing the code with flake8
       run: |
-        flake8 . > flake8_report.txt || true
+        flake8 . > flake8_report.txt 2>&1 || true
+
 
     - name: Upload flake8 report
       uses: actions/upload-artifact@v4
