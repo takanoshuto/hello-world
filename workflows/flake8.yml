@@ -7,7 +7,7 @@ on:
 
 
 jobs:
-  syntax-check:
+  syntex-check:
     runs-on: ubuntu-latest
 
     steps:
