@@ -8,7 +8,7 @@ on:
 
 
 jobs:
-  syntex-check:
+  syntax-check:
     runs-on: ubuntu-latest
 
     steps:
